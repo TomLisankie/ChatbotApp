@@ -1,0 +1,24 @@
+{
+	"time": "Sat Nov 17 2018 13:30:36 GMT-0500 (Eastern Standard Time)",
+	"nativePlatformStatus": "1",
+	"bundle": false,
+	"release": false,
+	"changesRequireBuild": false,
+	"projectFileHash": "0bcc7c919c2ad82c858920bd5c52c658a727c846ca67c88f81780c5fc33b1aab",
+	"changesRequireBuildTime": "Sat Nov 17 2018 12:06:37 GMT-0500 (Eastern Standard Time)",
+	"appFilesHashes": {
+		"/Users/thomas/Desktop/Dev/ChatbotApp/app/app-root.xml": "900a386cb2d8abc9573413eb3aff45448dcd3608",
+		"/Users/thomas/Desktop/Dev/ChatbotApp/app/app.css": "818d89c85febc1b07f538f819e1b55ed8f0ad753",
+		"/Users/thomas/Desktop/Dev/ChatbotApp/app/app.js": "de9f42f3905e115f69ef81b7b4d558c0b3a631ad",
+		"/Users/thomas/Desktop/Dev/ChatbotApp/app/app.ts": "d2aee20ec12265aac675d8f866c60b7d03ec5bb6",
+		"/Users/thomas/Desktop/Dev/ChatbotApp/app/fetch.d.ts": "39a228976e899aa062c55a5fe639822ccad5e164",
+		"/Users/thomas/Desktop/Dev/ChatbotApp/app/main-page.css": "f2e7c847541c3169722d889e6afc7d5c658ce84c",
+		"/Users/thomas/Desktop/Dev/ChatbotApp/app/main-page.js": "e344d92ec5382d963e57318c08591dbe6d438581",
+		"/Users/thomas/Desktop/Dev/ChatbotApp/app/main-page.ts": "a958db52e305ab502001d7871068eb7b48fa91e0",
+		"/Users/thomas/Desktop/Dev/ChatbotApp/app/main-page.xml": "2e0d8b97f620b45c03714fd714d2181c0a8544ce",
+		"/Users/thomas/Desktop/Dev/ChatbotApp/app/main-page_original.xml": "b0bee0004c8224a6bbf2a46b3bd5bb9b7fad11ff",
+		"/Users/thomas/Desktop/Dev/ChatbotApp/app/main-view-model.js": "7a087ae6685e9fd659904f974514709ec3c9ee00",
+		"/Users/thomas/Desktop/Dev/ChatbotApp/app/main-view-model.ts": "01c4811e49d2d4186e1fd2f1e9d60e979e233c02",
+		"/Users/thomas/Desktop/Dev/ChatbotApp/app/package.json": "554a1e7b09cfa1663c75683765118999cb11411a"
+	}
+}

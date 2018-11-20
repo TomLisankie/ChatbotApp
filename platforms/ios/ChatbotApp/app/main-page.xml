@@ -1,0 +1,55 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="navigatingTo" class="page">
+
+    <Page.actionBar>
+        <ActionBar title="Maiestro" icon="" class="action-bar">
+        </ActionBar>
+    </Page.actionBar>
+
+    <GridLayout columns="*" rows="*, auto">
+
+        <ListView height="90%" row="0" margin-bottom="50" padding="5" id="listView" items="{{ chats }}">
+            <ListView.itemTemplate>
+                <StackLayout backgroundColor="white" id="chatBubble">
+
+                    <StackLayout  visibility="{{ who === 'bot' ? 'visible' : 'collapsed' }}">
+                        <GridLayout width="100%" columns="*" rows="auto, 20" class="msg them">
+                            <StackLayout orientation="horizontal">
+                                <Label text="{{ message }}" textWrap="true" verticalAlignment="top" class="msg_text"/>                                
+                            </StackLayout>
+
+                        </GridLayout>
+                    </StackLayout>
+
+                    <StackLayout  visibility="{{ who === 'user' ? 'visible' : 'collapsed' }}">
+                        <GridLayout columns="*, auto" rows="auto, 40" class="msg me">
+                            <StackLayout col="1" orientation="horizontal" horizontalAlignment="right">
+                                <Label text="{{ message }}" class="msg_text" textWrap="true" verticalAlignment="top" />
+                            </StackLayout>
+                        </GridLayout>
+                    </StackLayout>
+
+                </StackLayout>
+            </ListView.itemTemplate>
+        </ListView>
+        <StackLayout row="1" id="chatbox">
+            <GridLayout columns="*,auto" backgroundColor="#006967" style="padding: 10">
+                <TextField 
+                    row="0" col="0"
+                    id="chatText"
+                    class="chatTextField"
+                    height="40"
+                    returnPress="{{ onSend }}"
+                    text="{{ userMessage }}"></TextField>
+                <Button 
+                    row="0" col="1"
+                    id="chatBtn" 
+                    textTransform="none" 
+                    fontFamily="FontAwesome"
+                    height="40" padding="5" margin="5" 
+                    class="btn btn-primary" 
+                    text="send &#xf1d9;" tap="{{ onSend }}"></Button>
+            </GridLayout>
+        </StackLayout>
+    </GridLayout>
+
+</Page>
